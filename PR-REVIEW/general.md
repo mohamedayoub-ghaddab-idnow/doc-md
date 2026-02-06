@@ -83,6 +83,15 @@ import { describe, it, expect } from "vitest";
 // Just use describe, it, expect directly
 ```
 
+- **No need to add**
+
+```typescript
+beforeEach(() => {
+    vi.clearAllMocks();
+```
+
+- These are handled globally
+
 ---
 
 ## React Best Practices
