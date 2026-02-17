@@ -30,6 +30,9 @@ This document contains common feedback and best practices collected from code re
 "@pdfslick/react": "1.5.0"
 ```
 
+### Version changes
+- each time we bump / changes version on a certain packages, run npm install to reflect thoses changes on package.lock / yarn.lock
+
 ---
 
 ## Import Statements
